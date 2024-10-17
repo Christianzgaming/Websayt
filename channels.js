@@ -32,8 +32,8 @@ const channels = {
         url: 'https://amg00627-amg00627c30-rakuten-es-3990.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanescc-rakutenes/playlist.m3u8',
 		type: 'hls'
     },
-	teenplus: {
-        name: 'TEEN 18PLUS',
+	teen: {
+        name: '18+ TEEN',
         url: 'https://live.redtraffic.net/teen.m3u8',
 		type: 'hls'
     },
