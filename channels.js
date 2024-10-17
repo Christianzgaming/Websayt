@@ -561,5 +561,15 @@ const channels = {
         name: 'ANIME ALL DAY',
         url: 'https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5812b7d3249444e05d09cc49/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5812b7d3249444e05d09cc49&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=830&terminate=false&userId=',
         type: 'hls'
+        		},
+		americasgt: {
+        name: 'AMERICANS GOT TALENT',
+        url: 'https://dhkq1p9audihq.cloudfront.net/index.m3u8',
+        type: 'hls'
+        		},
+		afvs: {
+        name: 'ALWAYS FUNNY VIDEOS',
+        url: 'https://cdn.klowdtv.net/803B48A/n1.klowdtv.net/live3/alwaysfunny_720p/playlist.m3u8?checkedby:iptvcat.com',
+        type: 'hls'
          },	 
     };
