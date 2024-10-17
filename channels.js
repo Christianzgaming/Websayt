@@ -562,10 +562,10 @@ const channels = {
         url: 'https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5812b7d3249444e05d09cc49/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5812b7d3249444e05d09cc49&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=830&terminate=false&userId=',
         type: 'ts'
         },
-		wwenet: {
-        name: 'WWE NETWORK',
-        url: 'http://lb51.fortv.cc:25461/live/z5hs1N/523413/146294.ts?token=ThFcUhFaQQwRUwtUAQwFAQJWXQhWVgAKBlpTVw4BBQIBBFAGV1FbVAcQHkdBQURQV1g7WFQWCgNXVFEKDR8RR0ZWRmwLVkEMEQMBUQoGBRcaFxBYXVESCFJVUQoLAwcLBAQYERJbBxQJEAddAQcDFxoXAUlEUUJcAg48V1xFWlFQEQ5dF14PGhFdXDpWUFtUWFFGCxIEEh5BCxBDGwldR1lfGBEAWxdEUkZXRwgXAwcPBEYdEldfRw0WEUobCRFifREYEQdKF1NdQVsKXBcMF0JGRh0SXUNtEQcQR0tWUl9QQRYJQAJBGhFfUx1tVllbWFAHRVlbXkFBWEELGx8RX1pdXUcNQDxGWlYQXxAEDgwOBEZM',
-        type: 'ts'
+		sonym: {
+        name: 'SONY MOVIES',
+        url: 'https://cdn.klowdtv.net/803B48A/n1.klowdtv.net/live1/smc_720p/playlist.m3u8',
+        type: 'hls'
         		},
 		americasgt: {
         name: 'AMERICANS GOT TALENT',
