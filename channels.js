@@ -33,8 +33,8 @@ const channels = {
 		type: 'hls'
     },
 	hallmark: {
-        name: 'HALLMARK MOVIES AND MORE',
-        url: 'https://www.apsattv.com/xumo.m3u',
+        name: 'TEEN 18PLUS',
+        url: 'https://live.redtraffic.net/teen.m3u8',
 		type: 'hls'
     },
     Animax: {
