@@ -546,5 +546,20 @@ const channels = {
         keyId: 'fd5d928f5d974ca4983f6e9295dfe410',
         key: '3aaa001ddc142fedbb9d5557be43792f',
 		type: 'mpd'
+		},
+		myx: {
+        name: 'MYX',
+        url: 'https://myxnola-abscbn-ono.amagi.tv/index_4.m3u8',
+        type: 'hls'
+        		},
+		tv5hd: {
+        name: 'TV5 HD',
+        url: 'https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_qp.m3u8',
+        type: 'hls'
+        		},
+		animeallday: {
+        name: 'ANIME ALL DAY',
+        url: 'https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5812b7d3249444e05d09cc49/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5812b7d3249444e05d09cc49&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=830&terminate=false&userId=',
+        type: 'hls'
          },	 
     };
