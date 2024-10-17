@@ -581,5 +581,10 @@ const channels = {
         name: 'DISNEY CHANNEL PH',
         url: 'https://fl5.moveonjoy.com/DISNEY_CHANNEL/index.m3u8',
         type: 'hls'
+					},
+		cartoonito: {
+        name: 'CARTOONITO',
+        url: 'https://cdn1.skygo.mn/live/disk1/Boomerang/HLS-FTA/Boomerang.m3u8',
+        type: 'hls'
          },	 
     };
