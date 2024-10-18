@@ -586,8 +586,8 @@ const channels = {
         url: 'https://cdn1.skygo.mn/live/disk1/Boomerang/HLS-FTA/Boomerang.m3u8',
         type: 'hls'
             },
-	cgtag: {
-    nkhjapan: 'NKH JAPAN',
+	nkhjapan: {
+    name: 'NKH JAPAN',
         url: 'https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_nhk_japan.mpd',
         keyId: '0f853990412b11edb8780242ac120002',
         key: '89d57dfef804fd9b5c788a54903d8256',
