@@ -1,283 +1,265 @@
 <!DOCTYPE html>
 <html lang="en">
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script>document.addEventListener('contextmenu', function(event) {event.preventDefault();});</script>
-    <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool@latest'></script><body>
- <title>CHANZAITV</title>
-  <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
-
-        @keyframes rainbow {
-    0% { background-color: rgb(255, 0, 0); }
-    14% { background-color: rgb(255, 127, 0); }
-    28% { background-color: rgb(255, 255, 0); }
-    42% { background-color: rgb(0, 255, 0); }
-    57% { background-color: rgb(0, 0, 255); }
-    71% { background-color: rgb(75, 0, 130); }
-    85% { background-color: rgb(148, 0, 211); }
-    100% { background-color: rgb(255, 0, 0); }
-}
-        body {
-    font-family: 'Times New Roman', Times, serif; /* Change to Times New Roman */
-    animation: rainbow 10s linear infinite; /* Apply the rainbow animation */
-    background-attachment: fixed;
-        }
-        .container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            padding: 20px;
-        }
-        .card {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around;
-            border-radius: 15px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-            margin: 10px;
-            padding: 20px;
-            width: calc(90% - 40px);
-            height: auto;
-            background: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(5px);
-            text-align: center;
-            transition: all 0.3s ease;
-            color: #333;
-        }
-        
-        .card img {
-            width: 50%;
-            height: auto;
-            margin: auto;
-            display: block;
-            padding: 10px;
-        }
-        .card:hover {
-            box-shadow: 0 5px 20px rgba(0,0,0,0.15);
-            transform: translateY(-5px);
-        }
-        .btn-primary {
-            background-color: black; /* Expanded button color */
-            color: white;
-            padding: 10px 20px; /* Reduced padding */
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            font-weight: 500;
-            margin-top: 20px;
-            font-size: 0.8em; /* Reduced font size */
-            width: auto; /* Allow button to expand based on text */
-            display: inline-block; /* Allow button to expand based on text */
-            text-align: center; /* Center-align text */
-        }
-        .btn-primary:hover {
-            background-color: red;
-            cursor: pointer;
-        }
-        .button-container {
-            display: flex;
-            justify-content: center; /* Center the buttons */
-            gap: 10px; /* Space between buttons */
-            margin-top: 20px;
-        }
-
-        /* For devices with screen width greater than 768px */
-        @media (min-width: 768px) {
-            .card {
-                width: calc(50% - 40px);
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <script>document.addEventListener('contextmenu', function(event) {event.preventDefault();});</script>
+   <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool@latest'></script>
+   <body>
+      <title>CHANZAITV</title>
+      <style>
+         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+         @keyframes rainbow {
+         0% { background-color: rgb(255, 0, 0); }
+         14% { background-color: rgb(255, 127, 0); }
+         28% { background-color: rgb(255, 255, 0); }
+         42% { background-color: rgb(0, 255, 0); }
+         57% { background-color: rgb(0, 0, 255); }
+         71% { background-color: rgb(75, 0, 130); }
+         85% { background-color: rgb(148, 0, 211); }
+         100% { background-color: rgb(255, 0, 0); }
+         }
+         body {
+         font-family: 'Times New Roman', Times, serif; /* Change to Times New Roman */
+         animation: rainbow 10s linear infinite; /* Apply the rainbow animation */
+         background-attachment: fixed;
+         }
+         .container {
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-around;
+         padding: 20px;
+         }
+         .card {
+         display: flex;
+         flex-direction: column;
+         justify-content: space-around;
+         border-radius: 15px;
+         box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+         margin: 10px;
+         padding: 20px;
+         width: calc(90% - 40px);
+         height: auto;
+         background: rgba(255, 255, 255, 0.1);
+         backdrop-filter: blur(5px);
+         text-align: center;
+         transition: all 0.3s ease;
+         color: #333;
+         }
+         .card img {
+         width: 50%;
+         height: auto;
+         margin: auto;
+         display: block;
+         padding: 10px;
+         }
+         .card:hover {
+         box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+         transform: translateY(-5px);
+         }
+         .btn-primary {
+         background-color: black; /* Expanded button color */
+         color: white;
+         padding: 10px 20px; /* Reduced padding */
+         border: none;
+         border-radius: 5px;
+         cursor: pointer;
+         transition: all 0.3s ease;
+         font-weight: 500;
+         margin-top: 20px;
+         font-size: 0.8em; /* Reduced font size */
+         width: auto; /* Allow button to expand based on text */
+         display: inline-block; /* Allow button to expand based on text */
+         text-align: center; /* Center-align text */
+         }
+         .btn-primary:hover {
+         background-color: red;
+         cursor: pointer;
+         }
+         .button-container {
+         display: flex;
+         justify-content: center; /* Center the buttons */
+         gap: 10px; /* Space between buttons */
+         margin-top: 20px;
+         }
+         /* For devices with screen width greater than 768px */
+         @media (min-width: 768px) {
+         .card {
+         width: calc(50% - 40px);
+         }
+         }
+         /* For devices with screen width greater than 1200px */
+         @media (min-width: 1200px) {
+         .card {
+         width: calc(30% - 40px);
+         }
+         }
+         .jumbotron {
+         background-color: #ff0000;
+         backdrop-filter: blur(10px);
+         padding: 10px;
+         margin: 10px;
+         border: 2px;
+         border-radius: 10px;
+         text-align: center;
+         color: #fff;
+         }
+         .Chanpogi {
+         font-family: 'Times New Roman', Times, serif; /* Change to Times New Roman */
+         animation: rainbow 10s linear infinite; /* Apply the rainbow animation */
+         background-color: #b00505; /* Initial background color (optional) */
+         backdrop-filter: blur(10px);
+         padding: 10px;
+         margin: 10px;
+         border: 2px;
+         border-radius: 10px;
+         text-align: center;
+         color: #fff;
+         }
+         .jumbotron h1 {
+         font-size: 2em;
+         font-weight: 800;
+         }
+         .Chanpogi h1 {
+         font-size: 1em;
+         font-weight: 800;
+         }
+         .jumbotron p {
+         font-size: 1.2em;
+         }
+         .modal {
+         display: none;
+         position: fixed;
+         z-index: 1;
+         left: 0;
+         top: 0;
+         width: 100%;
+         height: 100%;
+         overflow: auto;
+         background-color: rgba(0,0,0,0.4);
+         }
+         .modal-content {
+         ;
+         margin: 10% auto;
+         padding: 20px;
+         border: 1px solid #888;
+         width: 90%;
+         max-width: 600px;
+         border-radius: 10px;
+         position: relative;
+         }
+         .close {
+         color: #aaa;
+         font-size: 28px;
+         font-weight: bold;
+         display: block;
+         text-align: center;
+         margin-top: 10px;
+         }
+         .close:hover,
+         .close:focus {
+         color: black;
+         text-decoration: none;
+         cursor: pointer;
+         }
+         #modal-video, #modal-iframe {
+         width: 100%;
+         height: 315px; /* Adjusted for better fit */
+         border: none;
+         }
+         #modal-video {
+         display: none;
+         }
+         #modal-iframe {
+         display: none;
+         }
+         #time {
+         font-size: 3em;
+         color: #fff;
+         }
+         #date {
+         font-size: 1.2em;
+         color: #fff;
+         }
+      </style>
+      <head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>CHANZAI TV</title>
+         <script async src="f0a6f.txt" crossorigin="anonymous"></script>
+         <script src="https://cdn.tailwindcss.com/"></script>
+         <script src="jwpsrv.jsS"></script>
+         <script src="jwplayer.jsS"></script>
+         <script src="channels.js"></script>
+         <link href="all.min.css" rel="stylesheet">
+      </head>
+      <body class="bg-black text-white min-h-screen flex flex-col">
+         <main class="flex-grow p-4">
+            <div class="Chanpogi">
+               <select id="channelSelect" class="w-full p-2 bg-gray-700 rounded" style="color: #ffda08; line-height: 2.5; height: 40px;">
+                  <option value="">TAP HERE TO SELECT CHANNEL</option>
+                  <!-- Channel options will be populated dynamically -->
+               </select>
+            </div>
+            <div class="Chanpogi">
+               <video id="player" controls autoplay style="width: 100%; max-width: 700px; height: auto;"></video>
+            </div>
+            </div><br>
+            <div class="Chanpogi">
+               <p style="font-size: 12px; font-family: 'Times New Roman', Times, serif; font-weight: bold;">CHANZAI MODS</p>
+            </div>
+         </main>
+         <script>
+            jwplayer.key = 'XSuP4qMl+9tK17QNb+4+th2Pm9AWgMO/cYH8CI0HGGr7bdjo';
+            function loadStream(channelKey) {
+                const channel = channels[channelKey];
+                if (!channel) return;
+                jwplayer("player").setup({
+                    file: channel.url,
+                    type: channel.type,
+                    drm: channel.type === 'mpd' ? {
+                        clearkey: {
+                            keyId: channel.keyId,
+                            key: channel.key
+                        }
+                    } : undefined,
+                    width: "100%",
+                
+                    autostart: true
+                    volume: 100
+                });
             }
-        }
-
-        /* For devices with screen width greater than 1200px */
-        @media (min-width: 1200px) {
-            .card {
-                width: calc(30% - 40px);
+            function populateChannelSelect() {
+                const select = document.getElementById('channelSelect');
+                Object.keys(channels).forEach(key => {
+                    const option = document.createElement('option');
+                    option.value = key;
+                    option.textContent = channels[key].name;
+                    select.appendChild(option);
+                });
             }
-        }
-        .jumbotron {
-            background-color: #ff0000;
-            backdrop-filter: blur(10px);
-            padding: 10px;
-            margin: 10px;
-            border: 2px;
-            border-radius: 10px;
-            text-align: center;
-            color: #fff;
-        }
-.Chanpogi {
-    font-family: 'Times New Roman', Times, serif; /* Change to Times New Roman */
-    animation: rainbow 10s linear infinite; /* Apply the rainbow animation */
-    background-color: #b00505; /* Initial background color (optional) */
-    backdrop-filter: blur(10px);
-    padding: 10px;
-    margin: 10px;
-    border: 2px;
-    border-radius: 10px;
-    text-align: center;
-    color: #fff;
-}
-        .jumbotron h1 {
-            font-size: 2em;
-            font-weight: 800;
-        }
-            .Chanpogi h1 {
-            font-size: 1em;
-            font-weight: 800;
-        }
-        .jumbotron p {
-            font-size: 1.2em;
-        }
-        .modal {
-            display: none;
-            position: fixed;
-            z-index: 1;
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            overflow: auto;
-            background-color: rgba(0,0,0,0.4);
-        }
-        .modal-content {
-            ;
-            margin: 10% auto;
-            padding: 20px;
-            border: 1px solid #888;
-            width: 90%;
-            max-width: 600px;
-            border-radius: 10px;
-            position: relative;
-        }
-        
-        .close {
-            color: #aaa;
-            font-size: 28px;
-            font-weight: bold;
-            display: block;
-            text-align: center;
-            margin-top: 10px;
-        }
-        .close:hover,
-        .close:focus {
-            color: black;
-            text-decoration: none;
-            cursor: pointer;
-        }
-        #modal-video, #modal-iframe {
-            width: 100%;
-            height: 315px; /* Adjusted for better fit */
-            border: none;
-        }
-        #modal-video {
-            display: none;
-        }
-        #modal-iframe {
-            display: none;
-        }
-        #time {
-            font-size: 3em;
-            color: #fff;
-        }
-        #date {
-            font-size: 1.2em;
-            color: #fff;
-        }
-    </style>
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CHANZAI TV</title>
-    <script async src="f0a6f.txt" crossorigin="anonymous"></script>
-    <script src="https://cdn.tailwindcss.com/"></script>
-    <script src="jwpsrv.jsS"></script>
-    <script src="jwplayer.jsS"></script>
-    <script src="channels.js"></script>
-    
-    <link href="all.min.css" rel="stylesheet">
-   
-</head>
-<body class="bg-black text-white min-h-screen flex flex-col">
-   
-
-    <main class="flex-grow p-4">
-     
-        <div class="Chanpogi">
-             
-    
-            <select id="channelSelect" class="w-full p-2 bg-gray-700 rounded" style="color: #ffda08; line-height: 2.5; height: 40px;">
-                <option value="">TAP HERE TO SELECT CHANNEL</option>
-                <!-- Channel options will be populated dynamically -->
-            </select>
-        </div>
-		   <div class="Chanpogi">
-		   
-		       <video id="player" controls autoplay style="width: 100%; max-width: 700px; height: auto;"></video>
-           
-        </div>
-</div><br>
-<div class="Chanpogi">
-<p style="font-size: 12px; font-family: 'Times New Roman', Times, serif; font-weight: bold;">CHANZAI MODS</p>
-</div>
-
-    </main>
-
-    <script>
-        jwplayer.key = 'XSuP4qMl+9tK17QNb+4+th2Pm9AWgMO/cYH8CI0HGGr7bdjo';
-        function loadStream(channelKey) {
-            const channel = channels[channelKey];
-            if (!channel) return;
-            jwplayer("player").setup({
-                file: channel.url,
-                type: channel.type,
-                drm: channel.type === 'mpd' ? {
-                    clearkey: {
-                        keyId: channel.keyId,
-                        key: channel.key
-                    }
-                } : undefined,
-                width: "100%",
+            window.onload = function() {
+                populateChannelSelect();
+                
+                const channelSelect = document.getElementById('channelSelect');
+                channelSelect.addEventListener('change', function() {
+                    loadStream(this.value);
+                });
             
-                autostart: true
-            });
-        }
-        function populateChannelSelect() {
-            const select = document.getElementById('channelSelect');
-            Object.keys(channels).forEach(key => {
-                const option = document.createElement('option');
-                option.value = key;
-                option.textContent = channels[key].name;
-                select.appendChild(option);
-            });
-        }
-        window.onload = function() {
-            populateChannelSelect();
+                const menuToggle = document.getElementById('menuToggle');
+                const closeMenu = document.getElementById('closeMenu');
+                const slideMenu = document.getElementById('slideMenu');
             
-            const channelSelect = document.getElementById('channelSelect');
-            channelSelect.addEventListener('change', function() {
-                loadStream(this.value);
-            });
-
-            const menuToggle = document.getElementById('menuToggle');
-            const closeMenu = document.getElementById('closeMenu');
-            const slideMenu = document.getElementById('slideMenu');
-
-            menuToggle.addEventListener('click', () => {
-                slideMenu.classList.remove('translate-x-full');
-            });
-
-            closeMenu.addEventListener('click', () => {
-                slideMenu.classList.add('translate-x-full');
-            });
-        };
-    </script>
-    <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
-</body>
-
-
+                menuToggle.addEventListener('click', () => {
+                    slideMenu.classList.remove('translate-x-full');
+                });
+            
+                closeMenu.addEventListener('click', () => {
+                    slideMenu.classList.add('translate-x-full');
+                });
+            };
+         </script>
+         <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+         </script>
+   </body>
 </html>
