@@ -14,7 +14,7 @@ const channels = {
 };
 
 // Get the channel list container
-const channelList = document.getElementById('channelList');
+const channelSelect = document.getElementById('channelSelect');
 
 // Loop through the channels object and create elements
 for (const key in channels) {
@@ -27,6 +27,6 @@ for (const key in channels) {
         channelDiv.innerText = channel.name; // Set the channel name text
         
         // Append the channel div to the channel list
-        channelList.appendChild(channelDiv);
+        channelSelect.appendChild(channelDiv);
     }
 }
