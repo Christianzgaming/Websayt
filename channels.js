@@ -530,7 +530,7 @@ const channels = {
 		type: 'mpd'
 		 },
 	cinemaone: {
-        name: 'CinemaOne',
+        name: 'CINEMAONE',
         url: 'https://cinemaone-abscbn-ono.amagi.tv/index.m3u8',
         type: 'hls'
          },	 
@@ -556,10 +556,10 @@ const channels = {
         url: 'https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_qp.m3u8',
         type: 'hls'
         		},
-		animeallday: {
-        name: 'ANIME ALL DAY',
-        url: 'https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5812b7d3249444e05d09cc49/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5812b7d3249444e05d09cc49&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=830&terminate=false&userId=',
-        type: 'ts'
+		sportstream: {
+        name: 'SPORTS STREAM',
+        url: '125.209.88.166:45793/BRN/PTVSports.stream/playlist.m3u8',
+        type: 'hls'
         },
 		sonym: {
         name: 'SONY MOVIES',
@@ -585,5 +585,12 @@ const channels = {
         name: 'CARTOONITO',
         url: 'https://cdn1.skygo.mn/live/disk1/Boomerang/HLS-FTA/Boomerang.m3u8',
         type: 'hls'
+            },
+	cgtag: {
+    nkhjapan: 'NKH JAPAN',
+        url: 'https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_nhk_japan.mpd',
+        keyId: '0f853990412b11edb8780242ac120002',
+        key: '89d57dfef804fd9b5c788a54903d8256',
+		type: 'mpd'
          },	 
     };
