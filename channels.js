@@ -1,5 +1,12 @@
 
 const channels = {
+      animal_planet: {
+        name: 'ANIMAL PLANET',
+        url: 'https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/cg_animal_planet_sd.mpd',
+        keyId: '436b69f987924fcbbc06d40a69c2799a',
+        key: 'c63d5b0d7e52335b61aeba4f6537d54d',
+        type: 'mpd'
+},
 	  afvs: {
         name: 'ALWAYS FUNNY VIDEOS',
         url: 'https://cdn.klowdtv.net/803B48A/n1.klowdtv.net/live3/alwaysfunny_720p/playlist.m3u8?checkedby:iptvcat.com',
@@ -9,13 +16,6 @@ const channels = {
         name: 'AMERICANS GOT TALENT',
         url: 'https://dhkq1p9audihq.cloudfront.net/index.m3u8',
         type: 'hls'
-},
-	  animal_planet: {
-        name: 'ANIMAL PLANET',
-        url: 'https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/cg_animal_planet_sd.mpd',
-        keyId: '436b69f987924fcbbc06d40a69c2799a',
-        key: 'c63d5b0d7e52335b61aeba4f6537d54d',
-        type: 'mpd'
 },
 	  abc_australia: {
         name: 'ABC AUSTRALIA',
@@ -565,7 +565,7 @@ bean: {
         name: 'TEEN18+',
         url: 'https://live.redtraffic.net/teen.m3u8',
         type: 'hls'
-}.
+},
 	  uaap_varsity: {
         name: 'UAAP VARSITY',
         url: 'https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/cg_uaap_cplay_sd.mpd',
