@@ -314,9 +314,9 @@ bean: {
         url: 'https://myxnola-abscbn-ono.amagi.tv/index_4.m3u8',
         type: 'hls'
         },
-        nbatv: {
-        name: 'NBA TV',
-        url: 'http://lb58.fortv.cc:25461/live/7686199/9576982/22995.m3u8?token=ThFcUhFaQQwRUwpSU1BQDQJRUgBRAlELVFBSBABXVwsBV1cLVAAFUAcQHkdBQURQV1g7WFQWCgBRW1oGFRFGQVBBa1oGEFkUAgEHXQQDFBkUQQ1cVRYKAk9AE1pdEQkQAgIFA1UQTxRWSkYAQFtXWWlRAUdZV1UQWQwWX1UfEV1bbFBWD1MNUhEIEFUQGRRcRUVGC15BXF5PQAFaTUFSRlARDhFWA1oBER4QBl1AWEFETEYLEmR4EE9ABktNVl1BXFxaEVgQDgVGChBJEFxFakRQF0VCUVFfBhBBCRsDER4XXlVLPVEMWF1XURFbWlhGFA9GBBIYEl8MDApHVkFsQlxXFglAB1YABQIQGA==',
+        nbaph: {
+        name: 'NBA PH',
+        url: 'http://115.146.176.131:80/TimRizal/TimRizal/97.m3u8',
         type: 'hls'
         },
 	  star: {
