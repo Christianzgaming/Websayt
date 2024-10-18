@@ -581,3 +581,22 @@ bean: {
         type: 'mpd'
          },	 
     };
+
+
+// Get the channel list container
+const channelList = document.getElementById('channelList');
+
+// Loop through the channels object and create elements
+for (const key in channels) {
+    if (channels.hasOwnProperty(key)) {
+        const channel = channels[key];
+        
+        // Create a new div for each channel name
+        const channelDiv = document.createElement('div');
+        channelDiv.className = 'channel-name'; // Apply the CSS class
+        channelDiv.innerText = channel.name; // Set the channel name text
+        
+        // Append the channel div to the channel list
+        channelList.appendChild(channelDiv);
+    }
+}
