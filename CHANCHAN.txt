@@ -1,9 +1,1 @@
-// f0a6f.js
 
-// A simple function to log a greeting message
-function greet(name) {
-    console.log("Hello, " + name + "!");
-}
-
-// Call the function with a sample name
-greet("Bullshit");
