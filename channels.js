@@ -22,11 +22,11 @@ for (const key in channels) {
         const channel = channels[key];
         
         // Create a new div for each channel name
-        const channelDiv = document.createElement('div');
-        channelDiv.className = 'channel-name'; // Apply the CSS class
-        channelDiv.innerText = channel.name; // Set the channel name text
+        const channelSelect = document.createElement('div');
+        channelSelect.className = 'channel-name'; // Apply the CSS class
+        channelSelect.innerText = channel.name; // Set the channel name text
         
         // Append the channel div to the channel list
-        channelSelect.appendChild(channelDiv);
+        channelSelect.appendChild(channelSelect);
     }
 }
