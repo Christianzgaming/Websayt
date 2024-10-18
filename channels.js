@@ -314,6 +314,11 @@ bean: {
         url: 'https://myxnola-abscbn-ono.amagi.tv/index_4.m3u8',
         type: 'hls'
         },
+        nbatv: {
+        name: 'NBA TV',
+        url: 'http://lb58.fortv.cc:25461/live/7686199/9576982/22995.m3u8?token=ThFcUhFaQQwRUwpSU1BQDQJRUgBRAlELVFBSBABXVwsBV1cLVAAFUAcQHkdBQURQV1g7WFQWCgBRW1oGFRFGQVBBa1oGEFkUAgEHXQQDFBkUQQ1cVRYKAk9AE1pdEQkQAgIFA1UQTxRWSkYAQFtXWWlRAUdZV1UQWQwWX1UfEV1bbFBWD1MNUhEIEFUQGRRcRUVGC15BXF5PQAFaTUFSRlARDhFWA1oBER4QBl1AWEFETEYLEmR4EE9ABktNVl1BXFxaEVgQDgVGChBJEFxFakRQF0VCUVFfBhBBCRsDER4XXlVLPVEMWF1XURFbWlhGFA9GBBIYEl8MDApHVkFsQlxXFglAB1YABQIQGA==',
+        type: 'hls'
+        },
 	  star: {
         name: 'NHERS TELEVISION',
         url: 'https://fl1002.bozztv.com/ssh101/jomarhost/tracks-v1a1/mono.m3u8?fbclid=IwY2xjawF5RsFleHRuA2FlbQIxMAABHU11GuNNGVT_cGTBI-ofYJ9BFpZesbR-6X9n4tLLOS4SXMK-PR0lEhyGYA_aem_SPQPlRkOGpFOorNXOfGuFQ',
